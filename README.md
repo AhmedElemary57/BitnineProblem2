@@ -112,6 +112,6 @@ F(n) = F(n-3) + F(n-2) where F(0) = 0, F(1) = 1, and F(2) = 2.
   taking into account any carry that may arise during the addition. 
   The resulting BigInt is stored in the result struct, which is passed as a pointer to the function.
 
-##Conclusion
+## Conclusion
 This code provides four different methods to calculate the nth number of the sequence F(n). 
 The most efficient method is the bottom up method, which has a time complexity of O(n) and does not take a lot of stack.
